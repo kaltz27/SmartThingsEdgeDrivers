@@ -1,5 +1,5 @@
-name: 'Tuya Zigbee Device'
-packageKey: 'tuya-zigbee-device'
+name: 'Aiden Tuya Zigbee Device ver2'
+packageKey: 'Aiden tuya-zigbee-device ver2'
 permissions:
   zigbee: {}
 description: "Driver for uncertificed Tuya Zigbee devices"
