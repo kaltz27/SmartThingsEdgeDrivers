@@ -19,9 +19,9 @@ zigbeeManufacturer:
     manufacturer: _TZE284_nladmfvf
     model: TS0601
     deviceProfileName: window-treatment-reverse
-  - id: "_TZE200_mgxy2d9f/TS0601"
+  - id: "_TZE284_3mzb0sdz/TS0601"
     deviceLabel: Tuya Motion Sensor
-    manufacturer: _TZE200_mgxy2d9f
+    manufacturer: _TZE284_3mzb0sdz
     model: TS0601
     deviceProfileName: motion-sensor
   - id: "_TZE200_ioxkjvuz/TS0601"
