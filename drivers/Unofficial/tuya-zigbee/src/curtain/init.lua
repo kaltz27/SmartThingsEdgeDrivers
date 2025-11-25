@@ -24,7 +24,7 @@ local PRESET_LEVEL = 50
 local PRESET_LEVEL_KEY = "_presetLevel"
 
 local FINGERPRINTS = {
-  { mfr = "_TZE284_nladmfvf", model = "TS0601"}
+  { mfr = "_TZE284_3mzb0sdz", model = "TS0601"}
 }
 
 local function is_tuya_curtain(opts, driver, device)
@@ -110,8 +110,8 @@ local function window_shade_level(driver, device, command)
     level = 100
   end
   level = utils.round(level)
-  if device:get_manufacturer() == "_TZE284_nladmfvf" then
-    level = 100 - level   -- specific for _TZE284_nladmfvf
+  if device:get_manufacturer() == "_TZE284_3mzb0sdz" then
+    level = 100 - level   -- specific for _TZE284_3mzb0sdz
   end
   tuya_utils.send_tuya_command(device, '\x02', tuya_utils.DP_TYPE_VALUE, '\x00\x00'..string.pack(">I2", level), packet_id)
   packet_id = increase_packet_id(packet_id)
